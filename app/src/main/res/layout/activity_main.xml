@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/text_home"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/landing_page_alc"
+        android:layout_width="399dp"
+        android:layout_height="287dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/landing_page_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_home" />
+
+
+    <Button
+        android:id="@+id/about_alc_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/button_about_alc"
+        app:layout_constraintEnd_toEndOf="@+id/landing_page_alc"
+        app:layout_constraintStart_toStartOf="@+id/landing_page_alc"
+        app:layout_constraintTop_toBottomOf="@+id/landing_page_alc" />
+
+
+
+    <Button
+        android:id="@+id/button_about_my_profile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/button_about_profile"
+        app:layout_constraintEnd_toEndOf="@+id/about_alc_button"
+        app:layout_constraintStart_toStartOf="@+id/about_alc_button"
+        app:layout_constraintTop_toBottomOf="@+id/about_alc_button" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

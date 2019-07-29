@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="home_text">Welcome to ALC 4.0</string>
+    <string name="tool_bar_title">ALC Phase 1</string>
+    <string name="text_home_text" />
+    <string name="text_home">Wecome to ALC 4.0</string>
+    <string name="button_about_alc">About ALC</string>
+    <string name="button_about_profile">About My Profile</string>
+    <string name="title_about_alc">About ALC</string>
+    <string name="about_my_profile">My Profile</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="teddy_ochieng_onyango">Teddy Ochieng Onyango</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="profile_name">Teddy Ochieng Onyango</string>
+    <string name="font_family">sans-serif-condensed-medium</string>
+    <string name="track_name">Track: Android</string>
+    <string name="text_track">Track: Android</string>
+    <string name="text_country">Country: Kenya</string>
+    <string name="text_email">Email: teddybearochieng@gmail.com</string>
+    <string name="text_phone">Phone: +254718860282</string>
+    <string name="text_slack_name">Slack Username: Ted</string>
+    <string name="profile_title">My Profile</string>
+    <string name="profile_pic">Profile Picture</string>
+    <string name="profile_land">Profile Picture in Landscape</string>
+    <string name="notification_error_ssl_cert_invalid">SSLError Give Permission</string>
+    <string name="landing_page_image">ALC 4.0 Image</string>
+
+</resources>

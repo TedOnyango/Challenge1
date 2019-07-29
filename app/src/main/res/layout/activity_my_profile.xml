@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:contentDescription="@string/profile_pic"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/profile_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/profile_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_picture" />
+
+    <View
+        android:id="@+id/profile_separtor"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/profile_separater_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_name" />
+
+    <TextView
+        android:id="@+id/text_track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_directions_run_black_24dp"
+        android:drawablePadding="@dimen/profile_text_size"
+        android:text="@string/text_track"
+        android:textColor="@color/black"
+        android:textSize="@dimen/profile_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_separtor" />
+
+    <TextView
+        android:id="@+id/text_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_country"
+        android:drawableStart="@drawable/ic_language_black_24dp"
+        android:drawablePadding="@dimen/profile_text_size"
+        android:textColor="@color/black"
+        android:textSize="@dimen/profile_text_size"
+        app:layout_constraintStart_toStartOf="@+id/text_track"
+        app:layout_constraintTop_toBottomOf="@+id/text_track" />
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+        android:drawablePadding="@dimen/profile_text_size"
+        android:text="@string/text_email"
+        android:textColor="@color/black"
+        android:textSize="@dimen/profile_text_size"
+        app:layout_constraintStart_toStartOf="@+id/text_country"
+        app:layout_constraintTop_toBottomOf="@+id/text_country" />
+
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_phone"
+        android:drawableStart="@drawable/ic_phone_black_24dp"
+        android:drawablePadding="@dimen/profile_text_size"
+        android:textColor="@color/black"
+        android:textSize="@dimen/profile_text_size"
+        app:layout_constraintStart_toStartOf="@+id/text_email"
+        app:layout_constraintTop_toBottomOf="@+id/text_email" />
+
+    <TextView
+        android:id="@+id/text_slack_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_brands_and_logotypes"
+        android:drawablePadding="@dimen/profile_text_size"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_slack_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/profile_text_size"
+        app:layout_constraintStart_toStartOf="@+id/text_phone"
+        app:layout_constraintTop_toBottomOf="@+id/text_phone" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
